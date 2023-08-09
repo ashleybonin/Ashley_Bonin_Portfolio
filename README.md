@@ -13,6 +13,61 @@ In this case study, Cyclistic is a fictional company, because of this, the raw d
 [Data Cleaning Queries:] (CyclisticBikeShareQuery.sql)
 For the data cleaning aspect of this process I used SQL Server Management Studio (SSMS). The first step I took was to upload all of the twelve months of data into the database I created on SSMS. Since each of the twelve months were separated into different tables, I condensed them into one table. However, before I was able to combine all the datasets into one table, I needed to make sure all of the column data types were consistent across all the tables. 
 
+--Change column datatype so it is consistent with all 12 datasets
+SELECT * 
+FROM GoogleFinalProject.dbo.['202204-divvy-tripdata$']
+
+ALTER TABLE GoogleFinalProject.dbo.['202204-divvy-tripdata$']
+ALTER COLUMN start_station_id Nvarchar(255);
+
+------------------------------------------------------------------------------------------------------------
+
+--Create new table containing all 12 datasets
+
+CREATE TABLE AllDatasets (
+	ride_id nvarchar(255),
+	rideable_type nvarchar(255),
+	started_at datetime,
+	ended_at datetime,
+	start_station_name nvarchar(255),
+	start_station_id nvarchar(255),
+	end_station_name nvarchar(255),
+	end_station_id nvarchar(255),
+	start_lat float,
+	start_lng float,
+	end_lat float,
+	end_lng float,
+	member_casual nvarchar(255) );
+
+INSERT INTO AllDatasets 
+	(ride_id,
+	rideable_type,
+	started_at,
+	ended_at,
+	start_station_name,
+	start_station_id,
+	end_station_name,
+	end_station_id,
+	start_lat,
+	start_lng,
+	end_lat,
+	end_lng,
+	member_casual)
+SELECT ride_id,
+	rideable_type,
+	started_at,
+	ended_at,
+	start_station_name,
+	start_station_id,
+	end_station_name,
+	end_station_id,
+	start_lat,
+	start_lng,
+	end_lat,
+	end_lng,
+	member_casual 
+FROM GoogleFinalProject.dbo.['202204-divvy-tripdata$']
+
 ![Screenshot (27)](https://github.com/ashleybonin/Cyclistic-Bike-Share-Project/assets/141379455/3773e41a-0784-4675-88af-40b639937b11)
 ![Screenshot (26)](https://github.com/ashleybonin/Cyclistic-Bike-Share-Project/assets/141379455/e56e8c93-4124-4502-b536-a4f2e8e736c2)
 
