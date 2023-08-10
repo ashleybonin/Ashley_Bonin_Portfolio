@@ -34,3 +34,19 @@ After this, I made sure all of the ride lengths were accurate by removing any of
 ![Screenshot (36)](https://github.com/ashleybonin/Cyclistic-Bike-Share-Project/assets/141379455/3a114026-9a1d-4777-8e95-3dbf66a5d543)
 
 ## Data Analysis
+
+View interactive tableau viz [here](https://public.tableau.com/views/GoogleDataAnalyticsChicagoCyclisticRides/ChicagoCyclisticRidesFromApril2022toMay2023?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+![Screenshot (37)](https://github.com/ashleybonin/Cyclistic-Bike-Share-Project/assets/141379455/4cec30d6-1f75-4158-8e71-c59e8fc8d39c)
+
+For the analysis portion of this project, I chose to use Tableau to visualize the data. I uploaded the cleaned data from SSMS as a CSV file. Using Tableau I created charts showing percentage of rides taken by members vs casual riders, average ride length, number of rides by season, number of rides by time of day, day of week usage and a map of ride start stations. Each of these charts separate casual riders and annual members by color in order to make it easy to determine the differences between the two types of riders. 
+
+Based on these graphics we can determine the key differences between the way annual members and casual riders utilize the Cyclistic bike-share program. Out of the 5,803,280 total rides between April 2022 and March 2023, annual members accounted for 59.7% of rides while casual riders were responsible for the other 40.3% of rides. On average the rides of casual users are almost double the length of annual members with a casual ride length being 21.9 minutes and an annual member ride length being 12.2 minutes. 
+
+Both types of riders are the most active in the summer. However, casual rides see a sizable decrease after summer while member rides are much more consistent across the seasons. In addition, both types of rider categories have a comparable rider distribution across the morning and afternoon. This changes in the morning hours when annual riders are much more likely to ride than casual riders. 
+
+Casual riders tend to use the bike-share program mostly on the weekends with Saturday being their most popular day while annual members tend to ride more often during the weekdays with Thursday being their most popular day. According to the map of start station locations, casual rides tend to be more popular close to the waterfront indicating that the bikes may be used to get to and from more touristy attractions like the zoo, aquarium, planetarium and museums. Compared to the casual riders, annual member start station locations tend to be more widespread across the city with a lot of the popular stations being close to residential areas and universities. 
+
+This analysis seems to reflect the idea that casual riders are more likely to use the bikes as an easy transportation option to get to and from popular attractions in the city. There may also be a lot of tourists that use the casual ride options as the popular stations are seen to be near popular tourist attractions. Annual members appear to use the bike-share program more as a reliable source of everyday transportation in the city, possibly using it to go to and from work. 
+
+## Plan of Action 
