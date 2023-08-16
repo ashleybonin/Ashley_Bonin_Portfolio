@@ -50,3 +50,28 @@ Casual riders tend to use the bike-share program mostly on the weekends with Sat
 This analysis seems to reflect the idea that casual riders are more likely to use the bikes as an easy transportation option to get to and from popular attractions in the city. There may also be a lot of tourists that use the casual ride options as the popular stations are seen to be near popular tourist attractions. Annual members appear to use the bike-share program more as a reliable source of everyday transportation in the city, possibly using it to go to and from work. 
 
 ## Plan of Action 
+
+As evident in the above analysis, casual riders have a different approach to how they use Cyclistic’s bike-share program than annual members. In order to convert casual riders into annual members we have to take these differences into account. A few different approaches could be taken to upgrade the membership status of these riders:
+
+* Discount Membership for Casual Riders
+  * Create a one time discount membership rate for the first time someone who was previously a casual rider upgrades to an annual membership. This would be a good way to get a casual rider to see that they could benefit
+more from an annual membership. It could also be beneficial to introduce this offer during a time like the summer months when there are the most casual riders using the service as then they may be more likely to give
+the annual membership a try with the discount.
+
+* Seasonal Membership Option:
+  * A new type membership could be created so instead of having to pay the price of an annual membership, casual riders can instead upgrade to a seasonal membership for whichever season best suits them. Since casual riders  
+are the most active in summer this plan of action could see a large increase in summer seasonal memberships from previous casual riders. In addition, a discount annual membership upgrade from a seasonal membership could   persuade a seasonal member to upgrade their membership to an annual membership. Since the member has already paid a portion of the year and they are being offered the rest at a discounted rate this could greatly 
+increase the number of annual memberships bought. 
+
+* Raise Prices During Peak Times:
+  * Now that we know when casual riders are the most active, raising prices during peak times like summers and weekends could convince casual riders that the annual membership is a better deal than a single day pass. 
+
+* Create a Time LImit for Rides:
+  * Since casual riders take on average longer rides than annual members, putting a time limit on how long the rides can be could convince a casual rider that an annual membership would be better suited for their needs. 
+Making it so a casual rider is limited to something like 10 minute rides without a membership could incentivize casual riders who like to take longer rides to upgrade their memberships. 
+
+* Partner with Local Businesses
+  * Cyclistic could create a partnership with local businesses where members get a discount at local businesses such as the aquarium, zoo, planetarium, museums, etc.. This could see a big conversion of casual riders to
+members. Based on the map of the start locations from the tableau viz, casual riders often take rides near these tourist attraction types of businesses. If there was an agreement where members get discount tickets to   these places then casual riders might be more persuaded to pay for the upgraded membership. This idea could also be coupled with the seasonal membership idea as this would be an even greater incentive for the summer casual riders to upgrade to the membership option. 
+
+Any of these above ideas could prove to be useful strategies in converting casual riders to members. However, if even more data was provided, it could further narrow down which of these ideas would be the most successful. It would be beneficial to know more details pertaining to these casual riders such as the number of rides each rider takes, how many of the casual riders live in the area, how many riders are tourists, their age and their gender. This additional data could help make the marketing strategy even more targeted to the right demographic in a future analysis. 
